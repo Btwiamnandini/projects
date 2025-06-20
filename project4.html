@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorite Color</title>
+</head>
+<body>
+    <script>
+        function favoriteColor() {
+            let color = prompt("What is your favorite color?");
+            let confirmChoice = confirm("Are you sure your favorite color is " + color + "?");
+            if (confirmChoice) {
+                alert("Awesome! " + color + " is a great color!");
+            } else {
+                alert("No worries! You can choose another one.");
+            }
+        }
+
+        favoriteColor();
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      height: 100vh;
+      background: url('pexels-katia-miasoed-624959709-18039299.jpg') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+<div class="form-container">
+  <form class="registration-form">
+    <h2>Registration Form</h2>
+
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="text" placeholder="Country" required>
+    <input type="tel" placeholder="Phone" required>
+    <input type="password" placeholder="Password" required>
+
+    <div class="terms">
+      <input type="checkbox" id="terms" required>
+      <label for="terms">I accept terms & conditions</label>
+    </div>
+
+    <button type="submit">Create Account</button>
+
+    <p class="signin-text">
+      Already have an account? <a href="#">Sign In</a>
+    </p>
+  </form>
+</div>
+
+</body>
+</html>
